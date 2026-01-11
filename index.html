@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>CV Online - Radita oktavia putri</title>
+
+<style>
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(120deg, #2980b9, #6dd5fa);
+    padding: 40px;
+}
+
+.cv {
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* KIRI */
+.left {
+    background: #2c3e50;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.profile-img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #3498db;
+    margin-bottom: 20px;
+}
+
+.left h1 {
+    margin: 10px 0 5px;
+    font-size: 24px;
+}
+
+.left p {
+    font-size: 14px;
+    color: #ecf0f1;
+}
+
+.left h3 {
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.left ul {
+    list-style: none;
+    padding: 0;
+}
+
+.left ul li {
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+/* KANAN */
+.right {
+    padding: 40px;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    color: #2c3e50;
+    border-left: 5px solid #3498db;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+.section p, .section li {
+    color: #555;
+    line-height: 1.6;
+}
+
+.skills span {
+    display: inline-block;
+    background: #3498db;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 20px;
+    margin: 5px;
+    font-size: 13px;
+    transition: 0.3s;
+}
+
+.skills span:hover {
+    background: #2c3e50;
+}
+
+.links a {
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+}
+
+.links a:hover {
+    color: #2c3e50;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .cv {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="cv">
+
+    <!-- KIRI -->
+    <div class="left">
+        <img src="RADITA.jpeg" alt="Foto Profil" class="profile-img">
+
+        <h1>Radita Oktavia Putri</h1>
+        <p>Pelajar | Cat Lovers | sinemafil</p>
+
+        <h3>Kontak</h3>
+        <ul>
+            <li>📧 radita7650@gmail.com</li>
+            <li>📱 0853-5784-1477</li>
+            <li>📍 Lampung tengah</li>
+        </ul>
+
+        <h3>Media Sosial</h3>
+        <ul>
+            <li><a href="https://www.instagram.com/radita7650?igsh=MWhjNmdzNnQxcjI1cQ==" target="_blank" style="color:#1abc9c;">Instagram</a></li>
+              </ul>
+    </div>
+
+    <!-- KANAN -->
+    <div class="right">
+
+        <div class="section">
+            <h2>Profil Singkat</h2>
+            <p>
+                Saya Radita otavia putri, saya adalah salah siswa kelas XII SMA Gunung Madu dengan minat pada seni visual, kemampuan berhitung, dan perfilman. Berpengalaman mengikuti berbagai kompetisi dan meraih prestasi, saya memiliki karakter kreatif, tekun, dan berorientasi pada pengembangan diri.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Pendidikan</h2>
+            <ul>
+                <li>SMA ........ (2023 – 2026)</li>
+                <li>SMP ........ (2020 – 2023)</li>
+                <li>SD  ........ (2014 – 2020)</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>hobi</h2>
+            <div class="hobi">
+                <span>menggambar,</span>
+                <span>memasak,</span>
+                <span>membaca novel,</span>
+                <span>menonton film</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Karya & Portofolio</h2>
+            <ul>
+                <li>CV Online menggunakan HTML & CSS</li>
+                <li>karya selama bersekolah</li>
+                <li>
+                    Portofolio:
+                    <a href="https://drive.google.com/drive/folders/1-0abU7wV4MROyNklBMZwUXGZnPxTiOz5" target="_blank">
+                        https://link-karya-radita.com
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section links">
+            <h2>Link Tambahan</h2>
+            <a href="https://www.instagram.com/radita7650?igsh=MWhjNmdzNnQxcjI1cQ==" target="_blank">Instagram</a>
+              </div>
+
+    </div>
+
+</div>
+
+</body>
